@@ -1,24 +1,33 @@
 <Publish>
-  <ModId Value="80754" />
+  <ModId Value="107002" />
   <DisplayName Value="Clean Industry Zones" />
-  <ShortDescription Value="This Pack unlocks the Evacuation Bus, as well as length variations for tram" />
-  <LongDescription>## Clean Industry Zones
-This Pack unlocks the Evacuation Bus, as well as length variations for trams.
-
-## New Assets
-- Evacuation Bus (cap. 140) can be used on bus lines
-- Tram (2 Segments (cap. 160)
-- Tram (3 Segments, Vanilla) (cap. 240)
-- Tram (4 Segments) (cap. 320)
-- Tram (5 Segments) (cap. 400)
-- Tram (6 Segments) (cap. 480)
+  <ShortDescription Value="This pack adds clean industrial manufacturing (no chimneys) and warehouse zones" />
+  <LongDescription>
+## Clean Industry Zones
+This pack introduces two new industrial zones that cause no air and ground pollution. A warehouse-only zone to store all kinds of goods and a 
+clean manufacturing zone that processes only the following goods:
+- (Convenience) Food
+- Timber
+- Paper
+- Furniture
+- Electronics
+- Pharmaceuticals
+- Beverages
+- Textiles
     
+The chance to spawn chimneys are greatly reduced, but sometime a chimney will still pop up. This is by design.
+    
+## Usage
+Please note that these clean zones are supposed to be used in combination with default industrial zones. Some goods can't be produced in clean zones, so you need to use the default zones for those. 
+The clean zones are suitable to be placed near residential areas, or in areas with an unfavorable wind direction.
+    
+## Credits
 Smoke icons created by Flat Icons - Flaticon
 </LongDescription>
-  <Thumbnail Value="Properties/Thumbnail.png" />
-  <Screenshot Value="Properties/Thumbnail.png" />
+  <Thumbnail Value="Properties/ZoneIndustrialManufacturing.png" />
+  <Screenshot Value="Properties/ZoneIndustrialManufacturing.png" />
   <Tag Value="Code Mod" />
-  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/public-transport-vehicles-asset-pack.1676529/" />
+  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/clean-industry-zones.1735676/" />
   <ModVersion Value="1.0.0" />
   <GameVersion Value="1.2.*" />
   <Dependency Id="78903" />
